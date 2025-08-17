@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zowi Login & Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; text-align: center; }
+    input, button { padding: 10px; margin: 5px; width: 80%; max-width: 300px; }
+    button { cursor: pointer; background: #28a745; color: white; border: none; }
+    button:hover { background: #218838; }
+    #status { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Zowi Login & Registration</h2>
+  <input type="text" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button id="registerBtn">Register</button>
+  <button id="loginBtn">Login</button>
+  <p id="status"></p>
+
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
