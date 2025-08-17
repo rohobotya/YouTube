@@ -34,7 +34,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
                 if (snapshot.exists()) {
                     const userData = snapshot.val();
                     if (userData.approved && userData.prepayment_status === "approved") {
-                        window.location.href = "https://rohobotya.github.io/www.zowipromotion.com/";
+                        window.location.href = "https://skillshop.exceedlms.com/student/activity/11601-youtube-asset-monetization?sid=0874d4a4-2bad-449c-8c0e-37569fb3455b&si";
                     } else {
                         statusEl.textContent = "Account not approved or prepayment pending.";
                         statusEl.style.color = "red";
